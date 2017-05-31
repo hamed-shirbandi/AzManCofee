@@ -11,6 +11,7 @@ AzManCofee is the simple library to work with AzMan and have some useful methods
 just refrence AzManCofee dll to your project and call methods provided by IAzmanService that implemented in AzManService.
 then use following setting in your appSetting on your app config file.
 
+```xml
   <appSettings>
     <add key="AzManConnectionStringName" value="MyAzManConnectionStringName" />
     <add key="AzManAppName" value="MyAppName" />
@@ -22,8 +23,12 @@ then use following setting in your appSetting on your app config file.
 	.
 
  </appSettings>
+```
 
 for example:
 
+```code
 IAzManService azManService= new AzManService();
+
 var result = azManService.UserExists(userName:"adminUser");
+```
