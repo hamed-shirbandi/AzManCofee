@@ -4,8 +4,26 @@ Role-based authorization policy specifies access in terms of user roles that ref
 
  What is AzManCofee ?
  --------------------
-AzManCofee description goes here soon ... 
+AzManCofee is the simple library to work with AzMan and have some useful methods to validate user and roles.
 
  How to use ?
  -------------
-guide gose here soon ... 
+just refrence AzManCofee dll to your project and call methods provided by IAzmanService that implemented in AzManService.
+then use following setting in your appSetting on your app config file.
+
+  <appSettings>
+    <add key="AzManConnectionStringName" value="MyAzManConnectionStringName" />
+    <add key="AzManAppName" value="MyAppName" />
+    <add key="AzManStorageName" value="MyAppStore" />
+    <add key="AzManDomainName" value="MyDomain" />
+    <add key="AzManBypass" value="true" />
+	.
+	.
+	.
+
+ </appSettings>
+
+for example:
+
+IAzManService azManService= new AzManService();
+var result = azManService.UserExists(userName:"adminUser");
