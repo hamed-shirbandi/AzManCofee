@@ -27,7 +27,7 @@ then use following setting in your appSetting on your app config file.
 
 for example:
 
-```code
+```c#
 IAzManService azManService= new AzManService();
 
 var result = azManService.UserExists(userName:"adminUser");
