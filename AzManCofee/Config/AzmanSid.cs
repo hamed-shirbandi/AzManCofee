@@ -33,5 +33,10 @@ namespace Afaran.MedicalWaste.Engine.Application.AzMan.Config
             }
 
         }
+
+        public bool Equals(IAzManSid other)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
