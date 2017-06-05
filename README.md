@@ -6,6 +6,14 @@ Role-based authorization policy specifies access in terms of user roles that ref
  --------------------
 AzManCofee is the simple library to work with AzMan and have some useful methods to validate user and roles.
 
+# Install via NuGet
+To install AzManCofee, run the following command in the Package Manager Console
+```code
+pm> Install-Package AzManCofee
+```
+You can also view the [package page](https://www.nuget.org/packages/AzManCofee) on NuGet.
+
+
  How to use ?
  -------------
 just refrence AzManCofee dll to your project and call methods provided by IAzmanService that implemented in AzManService.
