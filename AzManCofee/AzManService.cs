@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Principal;
 using NetSqlAzMan.Interfaces;
 using NetSqlAzMan;
-using Afaran.MedicalWaste.Engine.Application.AzMan.Config;
+using AzManCofee.Config;
 using System.Configuration;
 using AzManCofee.Models;
 

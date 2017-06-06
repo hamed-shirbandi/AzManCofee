@@ -1,6 +1,6 @@
 ﻿
 
-use following setting in your appSetting on your app config file
+use following setting on your app config file 
 
   <appSettings>
     <add key="AzManConnectionStringName" value="MyAzManConnectionStringName" />
@@ -13,3 +13,5 @@ use following setting in your appSetting on your app config file
 	.
 
  </appSettings>
+
+ for more info about AzManCofee visit this page https://github.com/hamed-shirbandi/AzManCofee

@@ -1,5 +1,5 @@
 ﻿using AzManCofee;
-
+using System.Linq;
 
 namespace AzMan.Console
 {
@@ -9,11 +9,22 @@ namespace AzMan.Console
         {
             IAzManService azmanService = new AzManService();
             var roles = azmanService.GetAllRoles();
-            foreach (var role in roles)
+
+            System.Console.WriteLine("list of roles : ");
+
+            if (roles.Count()==0)
             {
-                System.Console.WriteLine(role.Name);
+                System.Console.WriteLine("not role exist");
+            }
+            else
+            {
+                foreach (var role in roles)
+                {
+                    System.Console.WriteLine(role.Name);
+                }
             }
 
+            System.Console.WriteLine("please enter a key to exit ... ");
             System.Console.ReadKey();
         }
     }

@@ -12,4 +12,7 @@
   <copyright>Copyright 2017 codeblock.ir</copyright>
   <tags>Authentication authorization azman NetSqlAzMan</tags>
  </metadata>
+    <files>
+    <file src=".\bin\Release\*.dll" target="lib\net45" />
+  </files>
 </package>

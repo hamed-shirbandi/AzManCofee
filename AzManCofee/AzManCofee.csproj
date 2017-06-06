@@ -36,8 +36,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NetSqlAzMan, Version=3.6.0.15, Culture=neutral, PublicKeyToken=ad1153f7ddd0e504, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetSqlAzMan-x86.3.6.0.15\lib\net40\NetSqlAzMan.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NetSqlAzMan.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />

@@ -2,7 +2,7 @@
 using System;
 using System.Security.Principal;
 
-namespace Afaran.MedicalWaste.Engine.Application.AzMan.Config
+namespace AzManCofee.Config
 {
    public class AzmanSid : IAzManSid
     {
