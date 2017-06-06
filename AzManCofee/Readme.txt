@@ -2,6 +2,16 @@
 
 use following setting on your app config file 
 
+  <connectionStrings>
+    <add name="MyAzManConnectionStringName" connectionString="Data Source=Server;Initial Catalog=NetSqlAzmanStorage;User ID=sa;Password=1234" providerName="System.Data.SqlClient" />
+    .
+	.
+	.
+
+  </connectionStrings>
+
+
+
   <appSettings>
     <add key="AzManConnectionStringName" value="MyAzManConnectionStringName" />
     <add key="AzManAppName" value="MyAppName" />

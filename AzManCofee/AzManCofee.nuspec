@@ -13,7 +13,8 @@
   <tags>Authentication authorization azman NetSqlAzMan</tags>
  </metadata>
     <files>
-    <file src=".\bin\Release\*.dll" target="lib\net45" />
+      <file src="bin\Release\*.dll" target="lib" />
+      <file src="bin\Release\*.dll" target="lib\net45" />
       <file src="Readme.txt" target="" />
   </files>
 </package>
