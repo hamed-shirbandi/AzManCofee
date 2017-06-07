@@ -41,3 +41,8 @@ IAzManService azManService= new AzManService();
 
 var result = azManService.UserExists(userName:"adminUser");
 ```
+Screenshots
+--------------------
+![azmanExample](https://github.com/hamed-shirbandi/AzManCofee/blob/master/AzManCofee.Console/content/img/1.png)
+![azmanExample](https://github.com/hamed-shirbandi/AzManCofee/blob/master/AzManCofee.Console/content/img/2.png)
+![azmanExample](https://github.com/hamed-shirbandi/AzManCofee/blob/master/AzManCofee.Console/content/img/3.png)
