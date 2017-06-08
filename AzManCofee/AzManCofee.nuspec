@@ -1,20 +1,36 @@
 <?xml version="1.0"?>
+
 <package >
+
  <metadata>
+
   <id>$id$</id>
+
   <version>$version$</version>
+
   <title>$title$</title>
+
   <authors>$author$</authors>
+
   <owners>$author$</owners>
+
   <projectUrl>https://github.com/hamed-shirbandi/AzManCofee</projectUrl>
+
   <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
   <description>$description$</description>
+
   <copyright>Copyright 2017 codeblock.ir</copyright>
+
   <tags>Authentication authorization azman NetSqlAzMan</tags>
+
  </metadata>
+
     <files>
-      <file src="bin\Release\*.dll" target="lib" />
       <file src="bin\Release\*.dll" target="lib\net45" />
+
       <file src="Readme.txt" target="" />
+
   </files>
+
 </package>
