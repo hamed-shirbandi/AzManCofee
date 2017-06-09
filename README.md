@@ -17,8 +17,8 @@ You can also view the [package page](https://www.nuget.org/packages/AzManCofee) 
 
  How to use ?
  -------------
-just refrence AzManCofee dll to your project and call methods provided by IAzmanService that implemented in AzManService.
-then use following setting in your appSetting on your app config file.
+just install package via nuget and call methods provided by IAzmanService that implemented in AzManService.
+then use following settings in your appSetting on your app config file.
 
 ```xml
   <appSettings>
