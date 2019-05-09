@@ -2,6 +2,8 @@
 AzMan is a role-based access control (RBAC) framework that provides an administrative tool to manage authorization policy and a runtime that allows applications to perform access checks against that policy. The AzMan administration tool (AzMan.msc) is supplied as a Microsoft Management Console (MMC) snap-in.
 Role-based authorization policy specifies access in terms of user roles that reflect an application's authorization requirements. Users are assigned to roles based on their job functions and these roles are granted permissions to perform related tasks.
 
+You can download [NetSqlAzMan](https://github.com/hamed-shirbandi/AzManCofee/raw/master/netsqlazman5%266.rar) here.
+
  What is AzManCofee ?
  --------------------
 AzManCofee is the simple library to work with AzMan and have some useful methods to validate user and roles.
